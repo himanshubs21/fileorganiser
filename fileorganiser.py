@@ -3,9 +3,9 @@
 import os, shutil
 
 
-
-target_path = r'/Users/HI20384787/Desktop/VScodeLearn/personalprojects/pr1/'
-
+path = input("Enter the directory path")
+#target_path = r'/Users/HI20384787/Desktop/VScodeLearn/personalprojects/pr1/'
+target_path = path.replace('\','/')
 
 folder_name = ['html files','audio files', 'image files', 'text files']
 for fd in folder_name:
